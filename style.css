@@ -1,0 +1,149 @@
+
+a{
+    color: black;
+}
+
+body{
+    margin-bottom:00px;
+}
+
+#name h1{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 200px;
+    font-weight: 850;
+    padding-left:450px;
+  background-color: rgb(174, 46, 46);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right:10px;
+
+}
+
+.intro{
+    position:relative;
+}
+
+.intro h2{
+    position:absolute;
+    left:300px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing:3px;
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    line-height: 1.8em;
+    font-size:x-large;
+    text-shadow: 4px 4px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(58, 58, 57);
+    font-size: 200%;
+
+}
+
+.info{
+position:relative;
+
+}
+
+.info p{
+    position:absolute;
+    top:190px;
+    left:12px;
+    line-height:1.8em;
+    width:70%;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgba(118, 176, 176, 0.639);
+}
+
+
+
+.button button{
+    background-color:rgb(126, 126, 126);
+    width:24%;
+    height:30px;
+    padding-right:90px;
+    padding-left:100px;
+    margin-left:80px;
+    margin-top:420px;
+    margin-left:200px;
+   margin-right: 0px;
+   margin-bottom:100px;
+
+}
+
+.me{
+    position:relative;
+}
+
+.me img{
+    position:absolute;
+    left:520px;
+}
+
+.education{
+    position:relative;
+}
+
+.education ol{
+    list-style: none;
+    position:absolute;
+    top:250px;
+    font-weight: 400;
+    font-size:110%;
+    font-style: bold;
+    line-height: 1.4em;
+    text-transform: uppercase;
+       background-color: rgb(226, 168, 43); ;
+  
+      
+}
+
+.Skills{
+    position:relative;
+  
+}
+
+.Skills ol{
+   list-style: none;  
+   position:absolute;
+   height: 175px;
+   top:250px;
+   left:400px;
+   line-height:1.6em;
+   background-color: rgb(226, 168, 43);
+   width: 26%;
+   
+}
+
+.c{
+    position:relative;
+  
+}
+
+.c ol{
+   position:absolute;
+   list-style: none;
+   left:800px;
+   top:250px;
+   height:175px;
+   line-height: 1.7em;
+   background-color:rgb(226, 168, 43); 
+}
+
+body{
+    background-color: rgb(125, 52, 52);
+}
+
+.g{
+    position:relative;
+}
+
+.g h3{
+    position:absolute;
+    left:310px;
+    bottom:5px;
+}
