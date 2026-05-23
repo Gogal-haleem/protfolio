@@ -1,19 +1,18 @@
 
 a{
     color: black;
+    font-size:25px ;
+    font-weight: bold;
 }
 
-body{
-    margin-bottom:00px;
-}
-
+ 
 #name h1{
     
     font-family:Arial, Helvetica, sans-serif;
     font: size 200px;
     font-weight: 850;
     padding-left:450px;
-  background-color: rgb(174, 46, 46);
+  background-color: #e8a045;
   margin-top: 10px;
   margin-left: 10px;
   margin-right:10px;
@@ -26,20 +25,21 @@ body{
 
 .intro h2{
     position:absolute;
-    left:300px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    word-spacing:3px;
+    left:450px;
+    top:20px;
+    font-family:'Playfair Display',serif;
+
+  
     display:flex;
     flex-direction: column;
     width:20%;
-    line-height: 1.8em;
+    line-height: 1.1em;
     font-size:x-large;
-    text-shadow: 4px 4px 6px;
-    text-transform: uppercase;
     font-weight: bold;
-    font-style: italic;
-    color:rgb(58, 58, 57);
-    font-size: 200%;
+    color:#e8a045;
+    font-size: 2.8rem;
+    text-align: center;
+    right:150px;
 
 }
 
@@ -50,25 +50,27 @@ position:relative;
 
 .info p{
     position:absolute;
-    top:190px;
-    left:12px;
-    line-height:1.8em;
+    top:280px;
+    left:148px;
+    line-height:1.9em;
     width:70%;
     text-transform: uppercase;
     font-weight: 500;
-    color: rgba(118, 176, 176, 0.639);
+    color:white;
+    text-align:center;
+word-spacing:8px;
 }
 
 
 
 .button button{
-    background-color:rgb(126, 126, 126);
+    background-color:#e8a045;
     width:24%;
     height:30px;
     padding-right:90px;
     padding-left:100px;
     margin-left:80px;
-    margin-top:420px;
+    margin-top:500px;
     margin-left:200px;
    margin-right: 0px;
    margin-bottom:100px;
@@ -77,15 +79,23 @@ position:relative;
 
 .me{
     position:relative;
+        
 }
 
 .me img{
     position:absolute;
-    left:520px;
+    left:500px;
+   
+    
+  
+ border-radius:50%;
+ overflow:hidden;
 }
 
 .education{
     position:relative;
+     
+    
 }
 
 .education ol{
@@ -97,31 +107,55 @@ position:relative;
     font-style: bold;
     line-height: 1.4em;
     text-transform: uppercase;
-       background-color: rgb(226, 168, 43); ;
+       background-color:#112234;
+       margin-left:20px;
+    height:175px;
+    display:grid;
+    
+    color:white;
+    border:3px#e8a045 solid;
+    
+   border-radius:10px;
+   border-radius:20px;
+   box-shadow:0 8px 28px rgb(0,0,0,0.3);
   
       
 }
 
 .Skills{
     position:relative;
+   
   
 }
 
 .Skills ol{
    list-style: none;  
    position:absolute;
-   height: 175px;
+   display:flex;
+   flex-direction: column;
+  align-items:fkex-start;
+
+   height: 175.5px;
    top:250px;
    left:400px;
    line-height:1.6em;
-   background-color: rgb(226, 168, 43);
+   background-color:#112234;
    width: 26%;
+   margin-left:13px;
+  
+  
+   color:white;
+    border:3px#e8a045 solid;
+    
+   border-radius:10px;
+   border-radius:20px;
+   box-shadow:0 8px 28px rgb(0,0,0,0.3);
    
 }
 
 .c{
     position:relative;
-  
+   display:grid;
 }
 
 .c ol{
@@ -131,19 +165,92 @@ position:relative;
    top:250px;
    height:175px;
    line-height: 1.7em;
-   background-color:rgb(226, 168, 43); 
+ background-color:#112234;
+   margin-left:5px;
+   margin-right:0%;
+  
+
+   color:white;
+    border:3px#e8a045 solid;
+    
+   border-radius:10px;
+   border-radius:20px;
+   box-shadow:0 8px 28px rgb(0,0,0,0.3);
+  
+
 }
 
 body{
-    background-color: rgb(125, 52, 52);
+    background-color:#0d1b2a;
+    background-color: hsl(210,53%,11%);
+  
+    margin-top:40px;
+   
 }
+
+
 
 .g{
     position:relative;
+  
+   
 }
 
 .g h3{
     position:absolute;
-    left:310px;
+    left:360px;
     bottom:5px;
+    margin:13%;
+    color:#e8a045
+  
+  ;
 }
+
+.p{
+      position:relative;
+     margin-top:50px;
+     padding-bottom: 30px;
+     margin:10%;
+}
+.p h3{
+    position:absolute;
+   color:#e8a045;
+   left:400px;  
+
+
+}
+
+.contact{
+    color:#e8a045;
+   margin:0 auto;
+   line-height:1.8em;
+   word-spacing:0.3em; 
+   max-width: 700px;    
+   mix-blend-mode: lighten;
+   text-align: center;
+   font-family: 'Playfair Display',serif;
+}
+.contact p{
+    color:#f5f0e8;
+    text-align:center;
+}
+
+.work{
+        color:#e8a045;
+   margin:0 auto;
+   line-height:1.8em;
+   word-spacing:0.3em; 
+   max-width: 700px;    
+   mix-blend-mode: lighten;
+   text-align: center;
+   font-family: 'Playfair Display',serif;
+
+}
+
+.work p{
+    color:#f5f0e8;
+    text-align: center;
+
+}
+  
+  
